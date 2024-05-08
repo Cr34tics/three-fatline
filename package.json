@@ -3,14 +3,14 @@
   "version": "0.6.2",
   "description": "A ThreeJS Line object with variable width",
   "type": "module",
-  "unpkg": "dist/three-fatline.min.js",
-  "main": "dist/three-fatline.mjs",
-  "module": "dist/three-fatline.mjs",
-  "types": "dist/three-fatline.d.ts",
+  "unpkg": "dist/@cr34tics/three-fatline.min.js",
+  "main": "dist/@cr34tics/three-fatline.mjs",
+  "module": "dist/@cr34tics/three-fatline.mjs",
+  "types": "dist/@cr34tics/three-fatline.d.ts",
   "exports": {
-    "types": "./dist/three-fatline.d.ts",
-    "umd": "./dist/three-fatline.min.js",
-    "default": "./dist/three-fatline.mjs"
+    "types": "./dist/@cr34tics/three-fatline.d.ts",
+    "umd": "./dist/@cr34tics/three-fatline.min.js",
+    "default": "./dist/@cr34tics/three-fatline.mjs"
   },
   "sideEffects": false,
   "repository": {
@@ -41,7 +41,6 @@
     "dev": "rollup -w -c",
     "prepare": "npm run build"
   },
-  "dependencies": {},
   "peerDependencies": {
     "three": ">=0.84.0"
   },
