@@ -13,13 +13,13 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: '18.x'
-          cache: npm
-          cache-dependency-path: ./package-lock.json
+          cache: yarn
+          cache-dependency-path: ./yarn.lockpackage-lock.json
           registry-url: 'https://npm.pkg.github.com'
           scope: '@cr34tics'
           token: ${{ secrets.GITHUB_TOKEN }}
       - name: Install NPM
-        run: npm ci --include=dev
+        run: yarn
       - run: |
           echo registry=https://npm.pkg.github.com/ > .npmrc
           echo always-auth=true >> .npmrc
