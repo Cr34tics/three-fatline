@@ -1,5 +1,5 @@
 {
-  "name": "three-fatline",
+  "name": "@cr34tics/three-fatline",
   "version": "0.6.2",
   "description": "A ThreeJS Line object with variable width",
   "type": "module",
